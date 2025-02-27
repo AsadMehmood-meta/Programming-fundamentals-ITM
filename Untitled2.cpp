@@ -218,8 +218,82 @@ int main(int argc, char *argv[]) {
 //	}
 
 
+//Diamond with single digit number.
+//	int i,j,k,a,b,c,d,row;
+//	cout<<"Enter Rows: ";
+//	cin>>row;
+//	d=0;
+//	for (i=1 ; i<=row ; i++){
+//		
+//		for (j= 1 ; j<=row-i ; j++){
+//			cout<<" ";
+//		}
+//		
+//		for (k=1 ; k<=i ; k++){
+//			cout<<"*"<<" ";
+//		}
+//		
+//	cout<<endl;
+//	}
+//	for (a=row-1 ; a>=1 ; a--){
+//		d+=1;
+//		for (b=1 ; b<=d ; b++){
+//			cout<<" ";
+//		}
+//		
+//		for (c=a ; c>=1 ; c--){
+//			cout<<"*"<<" ";
+//		}	
+//	cout<<endl;
+//	}
 
 
+
+//Reverse Fictorial.
+//	int num,i,fac;
+//	cout<<"Enter number: ";
+//	cin>>num;
+//	
+//	for (i=num ; i>=1 ; i--){
+//		if (i>1){
+//		cout<<i<<" x ";	
+//		} else {
+//		cout<<i;	
+//		}
+//		fac*=i;
+//	}
+//	cout<<" = "<<fac;
+
+
+//Series (-6).	
+//	int i;
+//	cout<<"Enter number: ";
+//	cin>>i;
+//	for (i ; i>=0 ; i-=6){
+//		cout<<i<<" ";
+//	}
+
+
+//Table creation.	
+//	int t,v,i;
+//	cout<<"Enter table value: ";
+//	cin>>t;
+//	cout<<"Enter multiplication value: ";
+//	cin>>v;
+//	for (i=1 ; i<=v ; i++){
+//		cout<<t<<" x "<<i<<" = "<<t*i<<endl;
+//	}
+	
+	
+//Cube of 3.	
+//	int i,x;
+//	cin>>x;
+//	for ( i=1 ; i<=x ; i*=3){
+//		cout<<i<<endl;
+//	}
+//	
+	
+	
 	
 	return 0;
 }
