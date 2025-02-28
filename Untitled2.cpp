@@ -1,5 +1,6 @@
 #include <iostream>
 #include<cmath>
+#include<bits/stdc++.h>
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
 
@@ -292,6 +293,65 @@ int main(int argc, char *argv[]) {
 //		cout<<i<<endl;
 //	}
 //	
+
+
+//series of (+12)
+//	int i = 1;
+//	for (i ; i <=205 ; i+=12){
+//		cout<<i<<endl;
+//	}
+	
+	
+	
+//series of table of 6 with alternate sign	
+//	int i,n,d,lim;
+//	cout<<"Enter series value: ";
+//	cin>>lim;
+//	n=6;
+//	d=-1;
+//	for (i=1 ; i <= lim ; i++){
+//		cout<<i*n*d<<endl;
+//		d*=-1;
+//	}
+	
+
+//series of (x6).	
+//	float i,n,s,lim;
+//	cin>>lim;
+//	n=6;
+//	s=1;
+//	for (i=1 ; i <= lim ; i++){
+//		cout<<n*s<<endl;
+//		n*=6;
+//		s*=-1;
+//	}
+
+
+//Number Guessing Game	
+//	int i,a,c,g;
+//	cout<<"Enter attempts: ";
+//	cin>>a;
+//	srand(time(0));
+//	c=(rand()%20)+1;
+//
+//	for (i=1 ; i<=a ; i++){
+//		cout<<"Guess number (between 1 to 20): ";
+//		cin>>g;
+//		if(g<1||g>100){
+//			cout<<"Invalid number"<<endl;
+//		} else {
+//			if (g==c){
+//			cout<<"Congrtaz"<<endl;
+//			break;
+//		} else {
+//			cout<<"Try again"<<endl;
+//		}
+//		
+//	}
+//		}
+//		cout<<"Computer generated number: "<<c;	
+	
+	
 	
 	
 	
