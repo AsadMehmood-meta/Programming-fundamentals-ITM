@@ -13,7 +13,7 @@ int main() {
 	cout << "Enter number of subjects: ";
 	cin >> subjects;
 
-	int** array = new int [students];
+	int** array = new int* [students];
 	
 	for (int i = 0; i < students; ++i) {
 		array[i] = new int[subjects];
@@ -42,8 +42,9 @@ void updatemarks(int** array){
 void displayArray(int** array , int students , int subjects){
 	for (int i=0 ; i<students ; i++){
 		for (int j=0 ; j<subjects ; j++){
-			cout<<array[i][j];
+			cout<<array[i][j]<<"\t";
 		}
+	cout<<endl;
 	}
 }
 
