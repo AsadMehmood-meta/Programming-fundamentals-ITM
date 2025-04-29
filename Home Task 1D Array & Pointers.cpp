@@ -15,7 +15,7 @@ int main() {
 	cout << "Enter number of subjects: "; //input number of rows by user
 	cin >> subjects;
 	
-	 int* array = new int [subjects]; //initialize 1D array dynamically
+	 int* array = new int [subjects*students]; //initialize 1D array dynamically
 	 
 	 inputMarks(array , students , subjects);
 	 display(array , students , subjects);
@@ -26,11 +26,13 @@ int main() {
 //function for input marks of each student
 void inputMarks(int* array , int students , int subjects){
 	cout<<"Enter Marks:"<<endl;
+	int k=0;
 	for (int i=0 ; i<students ; i++){
 		cout<<"Student "<<i+1<<": "<<endl;
 		for (int j=0 ; j<subjects ; j++){
 			cout<<" Subject "<<j+1<<": ";
-			cin>>array[j];
+			cin>>array[k];
+			k++;
 		}
 	}
 }
@@ -38,12 +40,13 @@ void inputMarks(int* array , int students , int subjects){
 //function for display marks of students
 void display(int* array , int students , int subjects){
 	cout<<"Student Marks:"<<endl;
+	int k=0;
 	for (int i=0 ; i<students ; i++){
 		cout<<"Student "<<i+1<<": ";
 		for (int j=0 ; j<subjects ; j++){
-			cout<<array[j]<<" ";
+			cout<<array[k]<<" ";
+			k++;
 		}
 	cout<<endl;
 	}
 }
-
